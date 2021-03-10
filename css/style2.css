@@ -107,6 +107,7 @@
         width: 150px;
         height: 150px;
         cursor: pointer;
+        align-items: center!important;
     }
 
 
@@ -211,3 +212,10 @@ ul#buttonlist1 , ul#buttonlist2 , ul#buttonlist3 , ul#buttonlist4 {
     display: none;
 }
 
+
+
+@media (max-width: 600px) {
+    .row{
+    width: 50%;
+}
+}
