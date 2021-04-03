@@ -1,3 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 console.log("Your index.js file is loaded correc")
 
 
@@ -85,7 +98,7 @@ $('.circle').on("click", function(){
 // });
 
 $('.circle').on("click", function(){
-    $(".footernav").css("margin-bottom", "300px");
+    $(".footernav").css("margin-bottom", "500px");
     });
 
 
@@ -102,17 +115,4 @@ $(".aboutcontent h2").animate({ right:"-200px" , opacity: "1"  }, 2000)
     
 
  });
-
-
-
-
-
-
-
-
-
-
-
-
-
 

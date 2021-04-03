@@ -209,6 +209,8 @@ max-width: 60%;
 
 /* Footer styles */
 
+
+
 .footer h2 {
 display: flex;
 align-items: center;
@@ -218,13 +220,18 @@ font-size: 36px;
 margin-top: 5%;
 color: #ffc000;
 }
-
-.footernav {
+.footernav{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+transition: all 1s;
+}
+/* .footernav {
 display: flex;
 align-items: center;
 justify-content: space-evenly;
 transition: all 1s;
-}
+} */
 
 .footernavname {
 display: flex;
