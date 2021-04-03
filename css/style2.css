@@ -214,8 +214,26 @@ ul#buttonlist1 , ul#buttonlist2 , ul#buttonlist3 , ul#buttonlist4 {
 
 
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 800px) {
     .row{
     width: 50%;
 }
+/* .circle1, .circle2, .circle3, .circle4 {
+    background: #FFC000;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+} */
+
+/* .circle h4{
+    font-size:18px;
+} */
+.footernav{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
 }
